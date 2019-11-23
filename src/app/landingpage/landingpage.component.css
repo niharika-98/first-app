@@ -1,0 +1,55 @@
+.navbar-nav>li{
+    padding: 1em;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 33px;
+}
+
+
+
+.head{
+position: relative;
+padding-top: 60px; 
+}
+.navbar {
+    position: fixed;
+    width: 100%;
+    
+}
+
+
+::ng-deep .navigate nav {
+    background-color: #1976d2 !important;
+   }
+
+   ::ng-deep .navbar .btn-group .dropdown-menu a:hover {
+    background-color: #1976d2 !important;
+    
+    }
+    ::ng-deep  .navbar .btn-group .dropdown-menu a:active {
+    background-color: #fff !important;
+  
+    }
+
+
+    ::ng-deep .head  {
+        width: auto;
+      
+        background: url('src/assets/d5.jpg') no-repeat center center fixed;
+        background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-bac3kground-size: cover;
+        z-index: -1;
+        background-color: #c1c1c1;
+        
+  }
+  .ban{
+
+  }
+   .subj-card{
+      padding-top: 4em;
+      background-color: rgba(0,0,0,0.5);
+      height: 100%;
+  }
